@@ -4,6 +4,7 @@ li{
 .navbar{
     background-color: black;
     color: white;
+    display: flex;
 
 
 }
@@ -12,4 +13,21 @@ li{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+}
+header{
+    display: contents;
+}
+.navLinks{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    margin-left: 58%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.logo img{
+    margin: 10px;
 }
