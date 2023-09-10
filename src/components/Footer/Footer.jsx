@@ -1,9 +1,11 @@
 import React from 'react'
-import App from '../../App'
 
-export const Footer = () => {
+
+const Footer = () => {
   return (
-    <div>Footer</div>
+    <div class="Footer">
+        <p>Footer</p>
+    </div>
   )
 }
-export default App;
+export default Footer;

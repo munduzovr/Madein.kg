@@ -1,7 +1,15 @@
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import Container from './components/Container/Container';
+import './components/CSS/Navbar.css';
 
-function App() {
+const App = ()=> {
   return (
-    <div className="App">
+    <div >
+        <Navbar />
+        <Container />
+        <Footer/>
     </div>
   );
 }
