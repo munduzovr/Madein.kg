@@ -6,16 +6,15 @@ li{
     text-decoration: none;
 }
 .navbar{
-    background-color: black;
-    color: white;
+    background-color: rebeccapurple;
     display: flex;
-
-
-}
+    opacity: 85.5%;
+  }
 #root{
     background-image: url("../../img/background.jpg");
     background-size: 100%;
     background-position: center center;
+    padding: 0 100px 100px;
 }
 header{
     display: contents;
@@ -28,34 +27,99 @@ header{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: color-mix(in srgb, color yellow orange percentage, color percentage);
     padding: 10px;
+
+}
+li a{
+    text-decoration: none;
+    color: color-mix(in srgb, color yellow orange percentage, color percentage);
+    padding: 4% 34%;
 }
 .logo img{
     margin: 10px;
 }
 .container{
     color: white;
-    padding: 10%;
 }
 .about{
-    display: table-caption;
-    width: 50%;
+    display: flex;
     margin: 0 auto;
     justify-content: center;
+    animation: pop 3s
 }
 .about img{
     border-radius: 50%;
+    width: 100%;
 }
+.about-text{
+    background-color: blueviolet;
+    width: 50%;
+    padding: 10%;
+    margin-top: 10%;
+}
+
 .bioBtn{
-    padding: 20px;
+    padding: 3%;
     border-radius: 10px;
-    width: 100px;
+    width: 103%;
     background-color: darkorchid;
     color: white;
-    border: 0px;
-    margin: 17% 50%;
+    border: 41px;
+    height: 13%;
 }
 .bio{
     display: None;
+}
+.links li{
+    display: inline-flex;
+    width: 25%;
+    background-color: fuchsia;
+    opacity: 50%;
+    margin: 4%;
+    border: 3px solid white;
+    border-radius: 14px;
+}
+@keyframes pop {
+    0%    { opacity: 0; }
+    50%   { opacity: 50%; }
+    100%  { opacity: 90%; }
+}
+.skills{
+    display: inline-flex;
+}
+.skills img{
+    width: 50%;
+}
+#jsLogo{
+    width: 100%;
+}
+#htmlLogo{
+    width: 40%;
+}
+#reactLogo{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    float: inline-end;
+}
+.skillsBox{
+    margin: 100px;
+}
+.skillsText{
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 50%;
+
+}
+.skillsText h2{
+    font-family: 'Poppins', sans-serif;
+}
+.cards{
+    padding: 10px;
+}
+.footer-head{
+    text-align: center;
+    font-size: 40px;
+    color: cadetblue;
 }
