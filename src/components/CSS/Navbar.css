@@ -1,3 +1,7 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 li{
     text-decoration: none;
 }
@@ -11,7 +15,6 @@ li{
 #root{
     background-image: url("../../img/background.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
     background-position: center center;
 }
 header{
@@ -30,4 +33,29 @@ a{
 }
 .logo img{
     margin: 10px;
+}
+.container{
+    color: white;
+    padding: 10%;
+}
+.about{
+    display: table-caption;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.about img{
+    border-radius: 50%;
+}
+.bioBtn{
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: darkorchid;
+    color: white;
+    border: 0px;
+    margin: 17% 50%;
+}
+.bio{
+    display: None;
 }

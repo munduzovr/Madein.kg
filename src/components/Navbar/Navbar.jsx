@@ -4,6 +4,7 @@ import React from 'react'
 
 export const Navbar = () => {
   return (
+    
     <div class="navbar">
       <header>
         <div className="logo">
