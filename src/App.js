@@ -6,18 +6,10 @@ import './components/CSS/Navbar.css';
 
 
 const App = ()=> {
-
-  let [shower,setShow] = useState('none');
-
-  function show(shower){
-    shower.style.display = 'block';
-  }
-
-
   return (
     <div >
         <Navbar />
-        <Container show={show}/>
+        <Container/>
         <Footer/>
     </div>
   );
